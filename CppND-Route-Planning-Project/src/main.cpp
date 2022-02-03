@@ -57,7 +57,7 @@ int main(int argc, const char **argv)
     // RoutePlanner object below in place of 10, 10, 90, 90.
     float start_x, start_y, end_x, end_y;
 
-    std::cout << "Enter Start X for Start point (X,Y), tip: X = 0-100 \n";
+    std::cout << "Enter Start X for Start point (X,Y), tip: X = 0-100 \n ";
     std::cin >> start_x;
 
     std::cout << "Enter Start Y for Start point (X,Y), tip: Y = 0-100 \n";
