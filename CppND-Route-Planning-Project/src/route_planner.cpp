@@ -2,7 +2,7 @@
 #include <algorithm>
 
 RoutePlanner::RoutePlanner(RouteModel &model, float start_x, float start_y, float end_x, float end_y): m_Model(model) {
-    // Convert inputs to percentage:
+    // Convert inputs to percentage :
     start_x *= 0.01;
     start_y *= 0.01;
     end_x *= 0.01;
